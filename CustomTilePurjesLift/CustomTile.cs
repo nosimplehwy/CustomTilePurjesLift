@@ -174,10 +174,10 @@ namespace CustomTilePurjesLift
         [ProgrammableEvent("Lift Bed")]
         public event EventHandler Button2;
 
-        [ProgrammableEvent("Lift Sitting")]
+        [ProgrammableEvent("Lift Window")]
         public event EventHandler Button3;
 
-        [ProgrammableEvent("Lift Window")]
+        [ProgrammableEvent("Lift Sitting")]
         public event EventHandler Button4;
 
 
@@ -205,8 +205,8 @@ namespace CustomTilePurjesLift
             _mainPageTitle.Value = "TV Lift";
             _button1Text.Value = "Down";
             _button2Text.Value = "Bed";
-            _button3Text.Value = "Sitting";
-            _button4Text.Value = "Window";
+            _button3Text.Value = "Window";
+            _button4Text.Value = "Sitting";
 
             Commit();
 
